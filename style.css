@@ -1,0 +1,91 @@
+/* header section  */
+body{
+    overflow-x: hidden;
+}
+
+.navbar{
+    background-color:#264653;
+    width: 100%;
+}
+
+.header-background{
+    background-color:#264653;
+    width: 100%;
+
+}
+
+.header-background p{
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.btn{
+    background-color:#E76F51; 
+    width: 168px;
+    color: white;
+}
+
+/* Latest News Button section  */
+.buton{
+    background-color: #E76F51;
+    width: 168px;
+    height: 44px;
+    border-radius: 5px;
+    padding: 15px;
+    text-decoration: none;
+}
+.card-title{
+    font-weight: 700;
+}
+
+
+
+/* Featured Bike Section  */
+
+.fetured-bike img{
+    width: 288px;
+    height: 243px;
+}
+.fetured-bike .img-1{
+    filter:saturate(8);
+}
+
+.fetured-bike .img-2{
+    filter:sepia(100%);
+}
+
+img{
+    transition: all 2s;
+}
+.col:hover img{
+    
+    transform: scale(1.1);
+}
+
+
+/* clients section  */
+.clients img{
+    width: 149px;
+    height: 149px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45%;
+
+}
+
+.clients p{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* question-section */
+.question-section{
+
+}
+/* subscribe-section   */
+.subscribe-section{
+    width: 100%;
+    background-color: #264653;
+}
+
