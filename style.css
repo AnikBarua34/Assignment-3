@@ -1,13 +1,12 @@
 /* header section  */
 body{
     overflow-x: hidden;
+     
 }
 
-.nav{
-    background-color:#264653;
-    width: 100%;
+.navbar{
+    background-color:#264653 ;
 }
-
 .header-background{
     background-color:#264653;
     width: 100%;

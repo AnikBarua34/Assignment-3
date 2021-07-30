@@ -14,31 +14,21 @@
 </head>
 
 <body>
-
-
-
-
-
-
-
-
-
-
     <!-- header start  -->
-    <header>
+    <header class="header-background">
         <!-- Navbar start  -->
         <section class="container">
 
-            <nav class="nav navbar fixed-top navbar-expand-lg navbar-light">
-                <div class="container-fluid px-5 mx-5">
-                    <a class="navbar-brand text-light" href="#">Bike Store</a>
+            <nav class="navbar fixed-top navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand text-light ms-5" href="#">Bike Store</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <ul class="navbar-nav ms-5 ps-5 mb-2 mb-lg-0">
                             <li class="nav-item">
                                 <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
                             </li>
@@ -54,19 +44,16 @@
 
 
                         </ul>
-                        <form class="d-flex">
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-outline-success" type="submit">Search</button>
-                        </form>
+
                     </div>
                 </div>
             </nav>
         </section>
         <!-- navbar end  -->
-        <Section class="header-background">
-            <div class="row d-flex justify-content-center align-items-center pt-5 mt-5">
+        <Section class="container my-5 py-3">
+            <div class="row d-flex justify-content-center align-items-center">
                 <div class="col col-lg-6 col-sm-12 col-12">
-                    <div class="text-light ps-4 ms-3">
+                    <div class="text-light">
                         <p>This is the best Top ranking Bike </p>
                         <h1>Honda CBR 300R</h1>
                         <p>This red CBR is one of the most popular bike in world. This is the fastest raching bike.
@@ -439,25 +426,25 @@
             <h1 class="text-center fw-bold shadow p-3">Top 6 <span class="text-warning"> Bikes In Bangladesh</span>
                 (160-cc)
             </h1>
-            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div id="carouselExampleInterval" class="carousel slide " data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active" data-bs-interval="1500">
-                        <img src="images/bike/1.jpg" class="d-block w-50" alt="...">
+                        <img src="images/bike/1.jpg" class="img-fluid d-block w-70" alt="...">
                     </div>
                     <div class="carousel-item" data-bs-interval="1500">
-                        <img src="images/bike/2.jpg" class="d-block w-50" alt="...">
+                        <img src="images/bike/2.jpg" class="img-fluid d-block w-70" alt="...">
                     </div>
                     <div class="carousel-item" data-bs-interval="1500">
-                        <img src="images/bike/3.jpg" class="d-block w-50" alt="...">
+                        <img src="images/bike/3.jpg" class="img-fluid d-block w-70" alt="...">
                     </div>
                     <div class="carousel-item" data-bs-interval="1500">
-                        <img src="images/bike/4.jpg" class="d-block w-50" alt="...">
+                        <img src="images/bike/4.jpg" class="img-fluid d-block w-70" alt="...">
                     </div>
                     <div class="carousel-item" data-bs-interval="1500">
-                        <img src="images/bike/5.jpg" class="d-block w-50" alt="...">
+                        <img src="images/bike/5.jpg" class="img-fluid d-block w-70" alt="...">
                     </div>
                     <div class="carousel-item" data-bs-interval="1500">
-                        <img src="images/bike/6.jpg" class="d-block w-50" alt="...">
+                        <img src="images/bike/6.jpg" class="img-fluid d-block w-70" alt="...">
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
@@ -478,12 +465,14 @@
 
 
         <!-- subscribe-section start  -->
-        <section class="subscribe-section container text-center shadow-sm rounded-3 p-5 text-light my-5 ">
-            <h1>Subscribe to Our Newsletter</h1>
-            <p>You will get All new price and product updates from here Free</p>
-            <div class="text-center">
+        <section class="subscribe-section">
+
+            <div class=" subscribe-section container text-center shadow-sm rounded-3 p-5 text-light my-5 ">
+                <h1>Subscribe to Our Newsletter</h1>
+                <p>You will get All new price and product updates from here Free</p>
                 <input type="text" placeholder="Enter Your Email" name="" id=""> <br>
                 <button class="subs-button button">Submit</button>
+
             </div>
         </section>
 
@@ -501,8 +490,8 @@
 
     <!-- FOOTER START -->
 
-    <footer>
-        <div class="foot bg-dark text-center">
+    <footer class="bg-dark">
+        <div class=" container text-center">
             <h5><small> <span class="text-warning"> Copyright Ⓒ Bike Store 2021</span></small> </h5>
         </div>
     </footer>
